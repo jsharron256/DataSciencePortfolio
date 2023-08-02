@@ -4,7 +4,7 @@ A collection of selected data science projects to demonstrate skill sets, knowle
 ## Contents
 ### 1. Basic Programming (Python)
 - **Automated Data Collection**: A script that automates the process of collecting, cleaning, and storing data from financial APIs such as Alpha Vantage.
-- 
+  
 ## In Progress
 
 ### 1. Basic Programming (Python)
