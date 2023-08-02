@@ -2,15 +2,11 @@
 # coding: utf-8
 
 # # Automated Financial Data Collection
-# 
+#
 # ## Overview
 # A script automating the process of collecting, cleaning, and storing data from financial API, Alpha Vantage.
 
 # ### 1. Set Up Environment
-
-# In[1]:
-
-
 # Import appropriate libraries.
 import requests
 import json
@@ -20,12 +16,7 @@ import sqlite3
 # Get API key from Alpha Vantage
 API_KEY = 'CD265QP86PO56Z9U'
 
-
 # ### 2. Collect Data: Define the data retrieval function.
-
-# In[2]:
-
-
 def get_stock_data(symbol, API_KEY):
     base_url = "https://www.alphavantage.co/query?"
     function = "TIME_SERIES_DAILY" # Alterable based on the data desired. 
@@ -43,19 +34,11 @@ def get_stock_data(symbol, API_KEY):
     
     return data
 
-
-# In[3]:
-
-
 # Test 1:
-get_stock_data("AAPL", API_KEY)
+# get_stock_data("AAPL", API_KEY)
 
 
 # ### 3. Data Cleaning: Clean and pre-process the data to make it suitable for analysis.
-
-# In[4]:
-
-
 def clean_data(raw_data):
     
     # Convert gathered data into a Pandas DataFrame
@@ -73,19 +56,11 @@ def clean_data(raw_data):
 
     return data
 
-
-# In[6]:
-
-
 # Test 2
 clean_data(get_stock_data("AAPL", API_KEY))
 
 
 # ### 4. Data Storage: Save the cleaned data into a local file or database for future use.
-
-# In[7]:
-
-
 def store_data(data, symbol, db_path):
     conn = sqlite3.connect(db_path)
     
@@ -96,10 +71,6 @@ def store_data(data, symbol, db_path):
 
 
 # ### 5. Run Script: Test on Apple stock data.
-
-# In[11]:
-
-
 def main():
     
     # Define the stock symbol and the API key
@@ -118,9 +89,6 @@ def main():
     
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
 
 
 
