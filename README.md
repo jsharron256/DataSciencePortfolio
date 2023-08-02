@@ -2,11 +2,12 @@
 A collection of selected data science projects to demonstrate skill sets, knowledge, and personal interests.
 
 ## Contents
-
+### 1. Basic Programming (Python)
+- **Automated Data Collection**: A script that automates the process of collecting, cleaning, and storing data from financial APIs such as Alpha Vantage.
+- 
 ## In Progress
 
-### 1. Basic Programming (Python/R)
-- **Automated Data Collection**: A script that automates the process of collecting, cleaning, and storing data from financial APIs such as Alpha Vantage.
+### 1. Basic Programming (Python)
 - **Modern Portfolio Theory Application**: A portfolio optimizer that applies the Modern Portfolio Theory to real financial data.
 - **Risk Management Model Design**: A risk management model that uses Monte Carlo simulations to predict Value-at-Risk.
 
