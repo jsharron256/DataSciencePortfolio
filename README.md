@@ -4,6 +4,9 @@ A collection of selected data science projects to demonstrate skill sets, knowle
 ## Contents
 ### 1. Basic Programming (Python)
 - **Automated Data Collection**: A script that automates the process of collecting, cleaning, and storing data from financial APIs such as Alpha Vantage.
+
+### 2. Statistics and Probability
+- **Future Financial Trends Analysis**: An analysis of historical financial data using inferential statistics to predict future trends.
   
 ## In Progress
 
@@ -14,7 +17,6 @@ A collection of selected data science projects to demonstrate skill sets, knowle
 ### 2. Statistics and Probability
 - **Investment Strategies A/B Testing**: An A/B testing framework that measures the impact of different investment strategies.
 - **Probabilistic Credit Risk Scoring Model**: A probabilistic model that provides credit risk scores.
-- **Future Financial Trends Analysis**: An analysis of historical financial data using inferential statistics to predict future trends.
 
 ### 3. Data Wrangling
 - **Financial Data Cleaning and Preprocessing**: A detailed report on the process and insights gained from cleaning and preprocessing a large, messy financial dataset.
